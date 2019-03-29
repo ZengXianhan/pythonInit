@@ -13,3 +13,10 @@ find_all(name,attrs,string)[名称、属性、文字]
 查找到节点标签名称node.name
 查找到节点href属性node['href']
 查找到节点的连接文字node.get_text() 
+
+调度程序
+Url管理器
+HTML下载器
+HTML解析器
+HTML输出器
+
