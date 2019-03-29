@@ -1,0 +1,15 @@
+环境 pip install pylint 插件Code Linting,Python
+
+网页下载器Urllib.Request 
+   
+网页解析器Beautiful Soup
+pip install beautifulsoup4
+
+搜索节点（find_all，find）
+find_all(name,attrs,string)[名称、属性、文字]
+对于它的名称，属性和文字，都可传入一个正则表达式来匹配
+
+得到节点
+查找到节点标签名称node.name
+查找到节点href属性node['href']
+查找到节点的连接文字node.get_text() 
