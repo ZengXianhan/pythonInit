@@ -1,5 +1,8 @@
 环境 pip install pylint 插件Code Linting,Python
 
+虚拟环境Virtualenv： pip install virtualenv   创建虚拟机virtualenv env 启动 cd ENV  source ./bin/activate
+虚拟环境Virtualenvwrapper： pip install virtualenvwrapper  创建虚拟机 mkvirtualenv env  启动 cd ENV  source ./bin/activate
+
 网页下载器Urllib.Request 
    
 网页解析器Beautiful Soup
