@@ -9,6 +9,7 @@ class WikiSpider(scrapy.Spider):
     start_urls = [base_url + 'wiki/Python']
 
     def parse(self, response):
+        css_selector = response.css('.a :: attr(href)')
         title_selector = response.xpath('//*[@id="firstHeading"]/text()')
         href_selector = response.xpath("//@href")
         title = title_selector.extract()[0]
