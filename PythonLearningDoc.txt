@@ -23,3 +23,11 @@ HTML下载器
 HTML解析器
 HTML输出器
 
+Scrapy pip install scrapy（windows需要c++ build compiler）
+
+Xpath语法
+http://www.w3school.com.cn/xpath/xpath_syntax.asp
+
+Xpath选择器
+CSS选择器
+
